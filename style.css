@@ -13,6 +13,7 @@
   
 body {
     font-family: 'Palatino Linotype', sans-serif;
+    background-color: #ffffff;
 }
 
 /* FONT STYLING */
@@ -44,7 +45,7 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 48px 156px;
-    color:e7e7e7;
+    color: #e7e7e7;
 }
  
 .nav-links {

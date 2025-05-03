@@ -16,7 +16,7 @@
     width: 420px;
 }
 .about-text{
-    width: 520px;
+    width: 700px;
 }
 .about-text h1{
     font-size: 80px;
@@ -55,9 +55,9 @@ button{
     display:flex;
     gap: 200px;
     flex-direction: column;
-    
     align-items: center;
-    justify-content: space-around;
+    
+    justify-content: center;
    
 }
 .box1 
