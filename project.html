@@ -1,7 +1,115 @@
 <!DOCTYPE html>
 <html>
-    <head></head>
+    <head>
+        <title>Portfoilo</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="projectStyle.css">
+        <meta name="viewport" content="width=device-width, initial-scale = 1.0">
+    </head>
     <body>
-        <h1>Eyad</h1>
+        <!-- Header -->
+        <header>
+            <img src="./assets/logo.svg" alt="BlitzBlink logo" width="220" height="auto" />
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="project.html" class="active">Our Projects</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- Projects -->
+        <main>
+            <h1>Projects</h1>
+            <section id="projects">
+                <!-- Eyad projects -->
+                <div class="two-cards">
+                    <div class="card" onclick="navigate('https://github.com/EyadAimen/Flutter-project-03')">
+                        <h2>Hangman</h2>
+                        <p>A hangman game mobile application developed using Flutter framework</p>
+                        <br>
+                        <p>21 Jul 2023</p>
+                        <p>Mobile app</p>
+                        <p>By Eyad Aimen</p>
+                    </div>
+                    <div class="card" onclick="navigate('https://github.com/EyadAimen/Flutter-project-05')">
+                        <h2>Chatting app</h2>
+                        <p>A Messaging mobile application, developed using flutter framework</p>
+                        <br>
+                        <p>11 oct 2023</p>
+                        <p>Mobile app</p>
+                        <p>By Eyad Aimen</p>
+                    </div>
+                </div>
+                <div class="two-cards">
+                    <div class="card" onclick="navigate('https://github.com/EyadAimen/Flutter-project-02')">
+                        <h2>BMI calculator</h2>
+                        <p>A mobile application for calculating BMI. Developed using flutter framework</p>
+                        <br>
+                        <p>21 Jul 2023</p>
+                        <p>Mobile app</p>
+                        <p>By Eyad Aimen</p>
+                    </div>
+                    <div class="card" onclick="navigate('https://github.com/EyadAimen/Project-08')">
+                        <h2>URL shortener</h2>
+                        <p>A webpage that will allow you to shorten any URL. Developed using HTML, CSS and Javascript</p>
+                        <br>
+                        <p>1 Jun 2023</p>
+                        <p>Website</p>
+                        <p>By Eyad Aimen</p>
+                    </div>
+                </div>
+                <div class="two-cards">
+                    <div class="card">
+                        <h2>Messaging app</h2>
+                        <p>app developes by flutter framework</p>
+                        <br>
+                        <p>22 aug 2024</p>
+                        <p>mobile app</p>
+                    </div>
+                    <div class="card">
+                        <h2>Messaging app</h2>
+                        <p>app developes by flutter framework</p>
+                        <br>
+                        <p>22 aug 2024</p>
+                        <p>mobile app</p>
+                    </div>
+                </div>
+                <div class="two-cards">
+                    <div class="card">
+                        <h2>Messaging app</h2>
+                        <p>app developes by flutter framework</p>
+                        <br>
+                        <p>22 aug 2024</p>
+                        <p>mobile app</p>
+                    </div>
+                    <div class="card">
+                        <h2>Messaging app</h2>
+                        <p>app developes by flutter framework</p>
+                        <br>
+                        <p>22 aug 2024</p>
+                        <p>mobile app</p>
+                    </div>
+                </div>
+                <div class="two-cards">
+                    <div class="card">
+                        <h2>Messaging app</h2>
+                        <p>app developes by flutter framework</p>
+                        <br>
+                        <p>22 aug 2024</p>
+                        <p>mobile app</p>
+                    </div>
+                    <div class="card">
+                        <h2>Messaging app</h2>
+                        <p>app developes by flutter framework</p>
+                        <br>
+                        <p>22 aug 2024</p>
+                        <p>mobile app</p>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <script src="projectNav.js"></script>
     </body>
 </html>
