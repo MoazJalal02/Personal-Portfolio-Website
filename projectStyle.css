@@ -5,8 +5,8 @@
 .card {
     background-color: grey;
     border: 5px solid transparent;
-    max-width: 75%;
-    min-width: 20%;
+    height: 300px;
+    flex: 1 0 300px;
     border-radius: 10px;
     padding: 20px;
     margin: 20px;
