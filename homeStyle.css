@@ -1,0 +1,19 @@
+main {
+    background-color: var(--primary-color);
+}
+
+.main-conent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 48px;
+    color: var(--white-color);
+}
+
+.member-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 33.33%;
+    gap: 16px;
+}
