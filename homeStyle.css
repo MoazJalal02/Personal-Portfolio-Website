@@ -2,12 +2,31 @@ main {
     background-color: var(--primary-color);
 }
 
-.main-conent {
+.home-hero {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 48px;
     color: var(--white-color);
+    padding: 56px 156px;
+}
+
+@media (max-width: 1200px) {
+    .home-hero {
+        padding: 56px 48px;
+    }
+}
+
+@media (max-width: 768px) {
+    .home-hero {
+        padding: 56px 12px;
+    }
+}
+
+.members-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .member-column {
@@ -16,4 +35,68 @@ main {
     align-items: center;
     width: 33.33%;
     gap: 16px;
+    padding: 0 16px;
+}
+
+@media (max-width: 768px) {
+    .member-column {
+        width: 100%;
+        padding: 0;
+    }
+}
+
+.profile-container {
+    text-align: center;
+}
+
+.links-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 16px;
+}
+
+.button {
+    align-items: center;
+    border-radius: 6px;
+    display: flex;
+    padding: 12px;
+    gap: 6px;
+    text-decoration:none;
+    text-decoration-color: currentcolor;
+    transition: all 300ms;
+}
+
+@media (max-width: 768px) {
+    .button {
+        padding: 10px 16px;
+    }
+}
+
+.button--primary {
+    background: var(--secondary-color);
+    border: 2px solid var(--secondary-color);
+    color: var(--white-color);
+}
+
+.button--secondary {
+    background: var(--white-color);
+    border: 2px solid var(--white-color);
+    color: var(--secondary-color);
+}
+
+.button--primary:hover, .button--primary:focus {
+    background: #0A3528;
+    color: var(--white-color);
+}
+
+.button--secondary:hover, .button--secondary:focus {
+    background: var(--gray-color);
+    border: 2px solid var(--secondary-color);
+    color: var(--secondary-color);
+}
+
+.button:hover {
+    box-shadow: 0 0 0 var(--size-10) rgba(0,0,0,.25);
+    outline: 0;
 }
