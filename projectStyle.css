@@ -1,13 +1,25 @@
+:root {
+    --primary-color: #1DBF73;
+    --secondary-color: #0f5641;
+    --black-color: #232222;
+    --white-color: #fff;
+}
+
 #projects {
     justify-content: center;
 }
 
 .card {
-    background-color: grey;
-    border: 5px solid transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: white;
+    border: 5px solid var(--primary-color);
+    border-radius: 10px;
     height: 300px;
     flex: 1 0 300px;
-    border-radius: 10px;
+    max-width: 40%;
+    min-width: 300px;
     padding: 20px;
     margin: 20px;
 
@@ -16,7 +28,7 @@
 }
 
 .card:hover {
-    border: 5px solid black;
+    border: 5px solid var(--secondary-color);
 }
 
 .two-cards {
