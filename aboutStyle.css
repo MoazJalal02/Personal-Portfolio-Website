@@ -1,9 +1,3 @@
-*{
-    padding: 0;
-    margin: 0;
-    font-family: 'josefin Sans' , sans-serif;
-    box-sizing: border-box;
-}
 @media (max-width: 768px) {
     .box1, .box2, .box3 {
         flex-direction: column;
@@ -76,9 +70,6 @@
     color: white;
     transform: scale(1.05);
 }
-
-
-
 
 .main {
     width: 100%;
