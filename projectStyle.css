@@ -1,8 +1,18 @@
 :root {
+    
     --primary-color: #1DBF73;
     --secondary-color: #0f5641;
     --black-color: #232222;
     --white-color: #fff;
+    --gray-color: #e8e7e7;
+}
+
+body {
+    background: linear-gradient(var(--gray-color),#8fffcb);
+}
+
+h1 {
+    text-align: center;
 }
 
 #projects {
@@ -13,7 +23,6 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    background-color: white;
     border: 5px solid var(--primary-color);
     border-radius: 10px;
     height: 300px;
