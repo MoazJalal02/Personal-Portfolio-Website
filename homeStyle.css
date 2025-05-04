@@ -1,4 +1,12 @@
+* {
+    box-sizing: border-box;
+}
+
 main {
+    background-color: var(--white-color);
+}
+
+.home-hero-section {
     background-color: var(--primary-color);
 }
 
@@ -6,9 +14,11 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 48px;
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 3rem;
     color: var(--white-color);
-    padding: 56px 156px;
+    padding: 3.5rem 1rem;
 }
 
 @media (max-width: 1200px) {
@@ -26,22 +36,23 @@ main {
 .members-container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    gap: 24px;
+    justify-content: center;
 }
 
 .member-column {
     display: flex;
+    flex: 1 1 300px;
     flex-direction: column;
     align-items: center;
-    width: 33.33%;
     gap: 16px;
-    padding: 0 16px;
 }
 
 @media (max-width: 768px) {
     .member-column {
         width: 100%;
-        padding: 0;
+        margin: .75rem 0;
+        text-align: center;
     }
 }
 
@@ -60,14 +71,19 @@ main {
     align-items: center;
     border-radius: 6px;
     display: flex;
-    padding: 12px;
+    padding: 0.75rem 1rem;    
     gap: 6px;
     text-decoration:none;
     text-decoration-color: currentcolor;
     transition: all 300ms;
+    font-size: 1rem;
 }
 
 @media (max-width: 768px) {
+    .links-container {
+        justify-content: center;
+    }
+
     .button {
         padding: 10px 16px;
     }
@@ -99,4 +115,42 @@ main {
 .button:hover {
     box-shadow: 0 0 0 var(--size-10) rgba(0,0,0,.25);
     outline: 0;
+}
+
+
+/* WHY CHOSE US SECTION STYLING */
+
+.why-us {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 3rem;
+    background-color: var(--white-color);
+    color: var(--black-color);
+    padding: 3.5rem 1rem;
+}
+
+.feature-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    justify-content: center;
+}
+
+.feature-icon {
+    text-align: center;
+}
+
+.feature-column {
+    display: flex;
+    flex: 1 1 300px;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+
+.feature-column .information-container {
+    text-align: center;
 }
