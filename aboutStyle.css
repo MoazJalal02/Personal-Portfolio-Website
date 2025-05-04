@@ -30,11 +30,13 @@
     margin:0px;
     display:flex; 
     justify-content: center;
+    flex-wrap: wrap;
     
 
 }
 .about img{
     margin: 50px;
+    margin-bottom: 20px;
     height:auto;
     width: 420px;
 }
@@ -90,6 +92,7 @@
     align-items: center;
     justify-content: top;
     overflow-x: hidden;
+    flex-wrap: wrap;
     
 }
 .box1, .box2, .box3 {
@@ -101,6 +104,7 @@
     justify-content: center;
     margin-left: 0;
     flex-direction: row;
+    flex-wrap: wrap;
 
 }
 .box1 {
