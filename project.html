@@ -9,16 +9,16 @@
     <body>
         <!-- Header -->
         <header>
-            <img src="./assets/logo.svg" alt="BlitzBlink logo" width="220" height="auto" />
+            <a href="home.html"><img src="./assets/logo.svg" alt="BlitzBlink logo" width="200" height="auto"/></a>
             <nav>
                 <ul class="nav-links">
-                    <li><a href="home.html">Home</a></li>
+                    <li><a href="home.html" class="active">Home</a></li>
                     <li><a href="about.html">About Us</a></li>
-                    <li><a href="project.html" class="active">Our Projects</a></li>
+                    <li><a href="project.html">Our Projects</a></li>
                 </ul>
             </nav>
+            <div class="menu-toggle" id="menu-toggle">&#9776;</div>
         </header>
-
         <!-- Projects -->
         <main>
             <h1>Projects</h1>
@@ -110,6 +110,9 @@
                 </div>
             </section>
         </main>
+        <footer>
+            <span class="bold">© 2025 BlitzBlink. All rights reserved.</span>
+        </footer>
         <script src="projectNav.js"></script>
     </body>
 </html>
