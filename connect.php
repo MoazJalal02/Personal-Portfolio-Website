@@ -5,7 +5,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $email = $_POST['email'];
     $message = $_POST['message'];
 
-    // You can save to a database, or send an email here
+    
     echo "Message received from $name for $student. We will contact you at $email.";
 } else {
     echo "Invalid request method.";
