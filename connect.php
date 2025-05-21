@@ -6,7 +6,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $message = $_POST['message'];
 
     
-    echo "Message received from $name for $student. We will contact you at $email.";
+    echo "Message received from $name to $student. We will contact you at $email.";
 } else {
     echo "Invalid request method.";
 }
