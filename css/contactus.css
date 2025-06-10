@@ -1,3 +1,8 @@
+main {
+    min-height: 85vh;
+    background-color: #e8e7e7;
+}
+
 .contact.us {
     padding: 2rem 10%;
     background-color: var(--gray-color);
